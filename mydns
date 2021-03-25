@@ -1,0 +1,35 @@
+clear
+mv mydns /data/data/com.termux/files/usr/bin/mydns
+clear
+echo -e "\e[36mBem Vindo ao MyDNS V1.0\e[0m";
+echo -e "\e[31m============================\e[0m";
+echo -e "\e[32mby GuerraF1000\e[0m";
+echo -e "\e[31m============================\e[0m";
+date
+echo -e "\e[33mIniciando DNS Google\e[0m";
+ping  8.8.8.8
+echo -e "\e[31mParando DNS Google\e[0m";
+clear
+echo -e "\e[33mIniciando DNS Cloudflare\e[0m";
+ping  1.1.1.1
+echo -e "\e[31mParando DNS CloudFlare\e[0m";
+clear
+echo -e "\e[33mIniciando DNS Verisign\e[0m";
+ping 64.6.64.6
+echo -e "\e[31mParando DNS Verisign\e[0m";
+clear
+echo -e "\e[33mIniciando DNS Opendns\e[0m";
+ping 208.67.222.222
+echo -e "\e[31mParando DNS Opendns\e[0m";
+clear
+echo -e "\e[33mIniciando DNS Neustar DNS\e[0m";
+ping 156.154.70.5
+echo -e "\e[31mParando DNS Neustar DNS\e[0m";
+clear
+echo -e "\e[33mIniciando DNS Comodo\e[0m";
+ping 8.26.56.26
+echo -e "\e[31mParando DNS Comodo\e[0m";
+clear
+echo -e "\e[31mParando Serviço\e[0m";
+echo -e "\e[31mBy GuerraF1000\e[0m";
+echo -e "\e[36mUtilize o comando mydns para ativar novamente\e[0m";
